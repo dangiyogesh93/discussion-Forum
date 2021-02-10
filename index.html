@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discussion Portal</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  </head>
+  <body>
+    <header>
+      <h1>Discussion Portal</h1>
+    </header>
+    <main>
+      <section id="left" class="layout widthLeft">
+        <div id="query">
+          <input
+            type="submit"
+            value="New Question form"
+            class="btn"
+            id="newQuestion"
+          />
+          <input
+            type="search"
+            name="searchBox"
+            id="search"
+            placeholder="Search question here"
+          />
+        </div>
+
+        <div id="questionSet"></div>
+        <!-- <label class="hidden">No Question Posted yet</label> -->
+      </section>
+      <section class="widthRight">
+        <div id="forHiding" class="">
+          <div id="right" class="layout">
+            <h1>Welcome to Discussion Portal!</h1>
+            <label>Enter a subject and question to get started</label>
+            <input
+              type="text"
+              name="qustion"
+              class="questionTitle"
+              placeholder="Enter Question title here"
+              id="titleQuestion"
+            />
+            <textarea
+              name="question"
+              class="questionDesc"
+              cols="30"
+              rows="10"
+              placeholder="Explain your Question here"
+              id="descQuestion"
+            ></textarea>
+            <input
+              type="submit"
+              value="Submit Now"
+              class="btn btnQuestion"
+              id="submit"
+            />
+          </div>
+        </div>
+        <div class="hidden" id="forHiding2">
+          <div id="questionReply" class="layout">
+            <div id="question"></div>
+            <div id="reply">
+              <h2>Add response</h2>
+              <label for="name">Name:</label>
+              <input type="text" name="name" class="questionTitle" id="naam" />
+              <textarea
+                name="question"
+                class="questionDesc"
+                cols="30"
+                rows="10"
+                placeholder="Explain your Answer here"
+                id="uttar"
+              ></textarea>
+              <input
+                type="submit"
+                value="Submit Now"
+                class="btn btnQuestion"
+                id="answerSubmit"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

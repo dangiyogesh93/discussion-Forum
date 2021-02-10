@@ -1,0 +1,140 @@
+/* General Properties */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: rgba(156, 212, 156, 0.788);
+  padding: 1%;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+body {
+  background-color: whitesmoke;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+.hidden {
+  display: none;
+}
+
+#hidden {
+  display: none;
+}
+
+/* Main heder properties */
+header {
+  background-color: grey;
+}
+header h1 {
+  padding: 1%;
+  color: white;
+}
+
+main {
+  background-color: white;
+  display: flex;
+  margin-left: 5%;
+  margin-top: 0.5%;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  box-shadow: 5px 10px 8px #888888;
+}
+.widthLeft {
+  width: 40%;
+}
+.widthRight {
+  width: 80%;
+}
+.layout {
+  height: 75vh;
+  border: 2px solid whitesmoke;
+}
+
+/* Right Portion Properties */
+
+#right {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+  position: relative;
+}
+label {
+  font-size: 1rem;
+}
+.questionTitle {
+  padding: 0.5%;
+  font-size: 1rem;
+  width: 50%;
+}
+.questionDesc {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.btnQuestion {
+  width: fit-content;
+  position: relative;
+}
+#welcomeSection {
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+  position: relative;
+  padding: 2%;
+}
+#questionReply {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+  position: relative;
+}
+/* right prtion ends */
+
+/* Left portion */
+#left {
+  position: relative;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  justify-content: center;
+}
+#search {
+  padding: 0.8%;
+  font-size: 1rem;
+  width: 50%;
+  border-radius: 5px;
+}
+#questionSet {
+  margin-top: 1.5%;
+  margin-left: 0.5%;
+  background-color: whitesmoke;
+  height: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+.question {
+  border-bottom: 3px solid white;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+/* Left potion Ends */
